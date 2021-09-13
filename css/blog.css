@@ -1,0 +1,38 @@
+footer .container-fluid{
+    background-color: black;
+    text-align: center;
+}
+footer .row{
+    height: 150px;
+}
+footer .text{
+    color: white;
+}
+footer .text a{
+    text-decoration: none;
+}
+i.fa-color{
+    color: white;
+}
+.title{
+    height: 150px;
+    background-color:whitesmoke;
+}
+.top-post img{
+    height: 40px;
+    width: 40px;
+    margin-right: 50px;
+}
+.post{
+    margin-bottom: 10px;
+}
+.post h1,h3{
+    margin-top: 10px;
+}
+.posthead{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/rele-md/css/all.css">
+    <!--<link rel="stylesheet" href="D:\學習彙總\網頁切版\custom-css\bootstrap.css">-->
+    <title>Hello, world!</title>
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+    <style type="text/css">
+        .big{
+            font-size: 30px;
+        }
+        .content p{
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .fa-colors{
+            color: black;
+        }
+        .posthead{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav id="top" class="navbar navbar-expand-lg navbar-light my-3">
+        <div class="container">
+            <a class="navbar-brand" href="demo.html#top">Shapely DEMO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mx-lg-5 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="demo.html#top">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="protfolio.html">PROTFOLIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ABOUT THE TESTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="pageImage.html">Page Image Alignment</a></li>
+                            <li><a class="dropdown-item" href="pageMarkup.html">Page Markup And Formatting</a></li>
+                            <li><a class="dropdown-item" href="clearing.html">Clearing Floats</a></li>
+                            <li><a class="dropdown-item" href="pageComments.html">Page with comments</a></li>
+                            <li><a class="dropdown-item" href="pageCommentsD.html">Page with comments disabled</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        LEVEL
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="level1.html">Level1</a></li>
+                            <li><a class="dropdown-item" href="level2.html">Level2</a></li>
+                            <li><a class="dropdown-item" href="level2a.html">Level2a</a></li>
+                            <li><a class="dropdown-item" href="level2b.html">Levle2b</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">SHOP</a>
+                    </li>
+                </ul>
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row my-5 justify-content-center align-items-center title">
+            <div class="col-12 col-md-10 col-lg-8 m-l5">
+                <h1>Markup: Image Alignment</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-7">
+                <div class="acticle">
+                    <div class="headers">
+                        <a href="MarkupImage.html"><img src="https://picsum.photos/750/500?random=10"  class="w-100"/></a>
+                        <div class="content">
+                            <h1><a class="posthead" href="MarkupImage.html">Markup: Image Alignment</a></h1>
+                            <span>January 7, 2016 | by <a href="#">Aigars</a></span>
+                            <p><span class="big">W </span> elcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.</p>
+                            <p>On the topic of alignment, it should be noted that users can choose from the options of None, Left, Right, and Center. In addition, they also get the options of Thumbnail, Medium, Large & Fullsize.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-12 head">
+                                <img src="https://picsum.photos/580/300?random=21" class="w-100 px-5 my-3"/>
+                            </div>
+                        </div>
+                        <p>The image above happens to be centered.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="https://picsum.photos/150/150?random=20" style="float: left;margin: 15px"/>
+                                <p>The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is left aligned. </p>
+                                <p>As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thang. Mission accomplished!</p>
+                            </div>
+                        </div>
+                        <p>And now for a massively large image. It also has no alignment.</p>
+                        <img src="https://picsum.photos/1200/400?random=12" class="w-100"/>
+                        <p>The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="https://picsum.photos/300/200?random=13" style="float: right;margin: 15px"/>                   
+                                <p>And now we’re going to shift things to the right align. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there… Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.</p>
+                                <p>In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah… Just like that. It never felt so good to be right.</p>
+                            </div>
+                        </div>
+                        <p>And just when you thought we were done, we’re going to do them all over again with captions!</p>
+                        <div class="card" style="width: 100%;">
+                            <img src="https://picsum.photos/580/300?random=18" class="card-img-top"/>
+                            <div class="card-body">
+                                <p class="card-text">Look at 580×300 getting some caption love.</p>
+                            </div>
+                        </div>
+                        <p>The image above happens to be centered. The caption also has a link in it, just to see if it does anything funky.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="https://picsum.photos/150/150?random=15" style="float: left;margin: 15px"/>
+                                <p>The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is left aligned. </p>
+                                <p>As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thang. Mission accomplished!</p>
+                            </div>
+                        </div>
+                        <p>And now for a massively large image. It also has no alignment.</p>
+                        <div class="card" style="width: 100%;">
+                            <img src="https://picsum.photos/580/300?random=23" class="card-img-top"/>
+                            <div class="card-body">
+                                <p class="card-text">Massive image comment for your eyeballs.</p>
+                            </div>
+                        </div>
+                        <p>The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="https://picsum.photos/300/200?random=13" style="float: right;margin: 15px"/>                   
+                                <p>And now we’re going to shift things to the right align. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there… Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.</p>
+                                <p>In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah… Just like that. It never felt so good to be right.</p>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <i class="fa fa-angle-left"></i><a href="Maecenas vestibulum.html">Maecenas vestibulum</a>                                          
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <a href="pj5.html">Project #5 </a><i class="fa fa-angle-right mt-1"></i>
+                    </div>
+                </div>
+                <div class="col-12 p-3 my-3 border border-dark justify-content-center">
+                    <img src="https://picsum.photos/100/100?random=15" style="float: left;margin: 10px" class="rounded-circle"/>
+                    <p> Aigars
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-colors mx-1"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter fa-colors mx-1"></i></a>
+                    </p>
+                    <p>Frontend web developer and web designer specialized in free and premium development. After graduating with BBA he self-though frontend web development. Mainly CSS/HTML/JavaScript(React, Vue) and some PHP. Obsessed with application performance, user experience and simplicity.</p>
+                </div>
+                <hr class="mt-5"/>
+                <i class="fas fa-tags"></i>
+                <span><a href="">content</a></span>
+                <span><a href="">read more</a></span>
+                <span><a href="">template</a></span>
+                <hr class="mt-3"/>
+                <h1>Related projects</h1>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="pj15.html">
+                                        <img src="https://picsum.photos/700/500?random=21" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #15</p>
+                                    </a>    
+                                </div>
+                                <div class="col-4">
+                                    <a href="pj14.html">
+                                        <img src="https://picsum.photos/700/500?random=22" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #14</p>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="pj13.html">
+                                        <img src="https://picsum.photos/700/500?random=23" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #13</p>
+                                    </a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="pj12.html">
+                                        <img src="https://picsum.photos/700/500?random=10" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #12</p>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="pj11.html">
+                                        <img src="https://picsum.photos/700/500?random=11" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #11</p>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="pj10.html">
+                                        <img src="https://picsum.photos/700/500?random=12" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #10</p>
+                                    </a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="pj9.html">
+                                        <img src="https://picsum.photos/700/500?random=13" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #9</p>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="pj8.html">
+                                        <img src="https://picsum.photos/700/500?random=14" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #8</p>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="pj7.html">
+                                        <img src="https://picsum.photos/700/500?random=15" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #7</p>
+                                    </a>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="pj6.html">
+                                        <img src="https://picsum.photos/700/500?random=16" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #6</p>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="pj5.html">
+                                        <img src="https://picsum.photos/700/500?random=17" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #5</p>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="pj4.html">
+                                        <img src="https://picsum.photos/700/500?random=18" class=" w-100 d-block"/>
+                                        <p class="text-body">Project #4</p>
+                                    </a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            
+            
+            <div class="col=12 col-md-12 col-lg-5">
+                <div class="index">
+                    <form class="d-flex">
+                        <input class="rounded-0 form-control border border-dark" type="search" placeholder="Search" aria-label="Search">
+                        <i class="fas fa-search py-3 px-3 border border-dark"></i>                                          
+                    </form>
+                    <div class="top-post my-5">
+                        <h3>Top Posts</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item top-post">
+                                <a href="TemplateSticky.html"><img src="https://picsum.photos/750/500?random=10"/></a><a href="TemplateSticky.html">Template: Sticky</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="TemplateMoreTag.html"><img src="https://picsum.photos/350/200?random=10"/></a><a href="TemplateMoreTag.html">Template: More Tag</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="EdgeCase.html"><img src="https://picsum.photos/350/200?random=14"/></a><a href="EdgeCase.html">Edge Case: Nested And Mixed Lists</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="MarkupHTML.html"><img src="https://picsum.photos/350/200?random=12"/></a><a href="MarkupHTML.html">Markup: HTML Tags and Formatting</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="MarkupImage.html"><img src="https://picsum.photos/350/200?random=13"/></a><a href="MarkupImage.html">Markup: Image Alignment</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="Helloworld.html"><img src="https://picsum.photos/350/200?random=11"/></a><a href="Helloworld.html">Hello world!</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="recent-post">
+                        <h3>Recent Posts</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-4"><a class="posthead" href="TemplateMoreTag.html">Template: More Tag</a></li>
+                            <li class="list-group-item py-4"><a class="posthead" href="Helloworld.html">Hello world!</a></li>
+                            <li class="list-group-item py-4"><a class="posthead" href="MarkupHTML.html">Markup: HTML Tags and Formatting</a></li>
+                            <li class="list-group-item py-4"><a class="posthead" href="MarkupImage.html">Markup: Image Alignment</a></li>
+                            <li class="list-group-item py-4"><a class="posthead" href="MarkupText.html">Markup: Text Alignment</a></li>
+                        </ul>
+                    </div>
+                    <div class="categories">
+                        <h3>Categories</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-4">Edge Case</li>
+                            <li class="list-group-item py-4">Markup</li>
+                            <li class="list-group-item py-4">News</li>
+                            <li class="list-group-item py-4">Post Formats</li>
+                            <li class="list-group-item py-4">Template</li>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="text">
+                        <h5>Theme by <a href="https://colorlib.com/">Colorlib</a> Powered by <a href="https://wordpress.org/">WordPress</a></h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-color mx-3"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter fa-color mx-3"></i></a>
+                        <a href="https://tw.linkedin.com/"><i class="fab fa-linkedin-in fa-color mx-3"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube fa-color mx-3"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-color mx-3"></i></a>
+                        <a href="#top" class="btn btn-outline-light  col-lg-1">
+                            <i class="fa fa-angle-up"></i>
+                        </a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
